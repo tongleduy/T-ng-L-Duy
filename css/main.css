@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+.container
+{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	justify-content: center;
+}
+.Menu
+{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 115px;
+	background-color:rgba(36,36,36,1.00);
+	font-family: "SVN-Avo";
+	font-size: 15px;
+	z-index: 100;
+	top: 0px;
+	position: fixed;
+}
+ul
+{
+	list-style: none;
+	margin: 10px 0px;
+}
+ul li
+{
+	padding: 40px;
+	float: left;
+	position: relative;
+}
+ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+ul li:hover
+{
+	border-bottom: 5px solid rgba(221,171,22,1.00);
+}
+ul li ul
+{
+	top: 95px;
+	position: absolute;
+	left: -41px;
+	visibility: hidden;
+}
+ul li ul li
+{
+	background-color:rgba(36,36,36,1.00);
+	width: 150px;
+	height: auto;
+}
+ul li:hover ul
+{
+	visibility: visible;
+}
+.social
+{
+	margin: auto 10px;
+}
+.firstpic
+{
+	width: 100%;
+	height: 752px;
+	background-color: rgba(36,36,36,1.00);
+	margin: 0px;
+	position:relative;
+	text-align: center;
+	color: white;
+}
+.textpic
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-family: "SVN-Avo";
+}
+.boxdatcho
+{
+	width: 170px;
+	height: 70px;
+	background-color: rgba(221,171,22,1.00);
+	margin: auto;
+	padding: 0.5px;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+a:hover div
+{
+	background-color:rgba(36,36,36,1.00);
+	border: 2px solid;
+}
+.tuannay
+{
+	text-align: center;
+	font-family: "SVN-Avo";
+	color: white;
+	width: 100%;
+	height: 120px;
+	background-color: rgba(36,36,36,1.00);
+	padding: 10px;
+}
+
+.threepic
+{
+	width: 100%;
+	height: 530px;
+	background-color: rgba(36,36,36,1.00);
+}
+.pic
+{
+	width: 200px;
+	height: 300px;
+	background-color: cornflowerblue;
+	margin-left: 110px;
+	float: left;
+	position: relative;
+}
+.tenmon
+{
+	width: 150px;
+	height: 70px;
+	background-color: rgba(221,171,22,1.00);
+	position: absolute;
+	top: 380px;
+	left: 70px;
+	font-family: "SVN-Avo";
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+.titlekhonggian
+{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	font-family: "SVN-Avo";
+	color: rgba(36,36,36,1.00);
+}
+.khonggian
+{
+	width: auto;
+	height: 340px;
+	background-color: white;
+	justify-content: center;
+	margin-left: 80px;
+}
+.textkogian
+{
+	width: 541px;
+	height: 280px;
+	background-color: rgba(221,171,22,1.00);
+	float: left;
+	padding: 10px;
+	font-family: "SVN-Avo";
+	color: rgba(36,36,36,1.00);
+}
+.hinh
+{
+	width: 400px;
+	height: 300px;
+	background-color: green;
+	float: right;
+	margin-right: 100px;
+}
+.footer
+{
+	width: 100%;
+	height: 350px;
+	background-color: rgba(36,36,36,1.00);
+	float: left;
+}
+.contact
+{
+	width: 40%;
+	height: 280px;
+	background-color: rgba(36,36,36,1.00);
+	float: left;
+	margin-left: 90px;
+	margin-top: 40px;
+}
+div.contact
+{
+	padding: 10px 0pX 10px 10px;
+	font-family: "SVN-Avo";
+	color: white;
+	font-size: 15px;
+}
+.map
+{
+	width: 30%;
+	height: 280px;
+	background-color: red;
+	float: right;
+	margin: 30px 70px 10px 0px;
+}
+
+
+
